@@ -15,7 +15,7 @@ import time
 
 start = time.time()
 
-key = 'mFY7S%2BvZr%2BV5qfNSnOV43jwWv6jLN9C4CG8YWB4eRd4vQ08JBb7d3UbLFNnrlPzeEjZP3UOjbTe2VszpDW92nw%3D%3D'
+key = '본인 key입력'
 url = 'http://apis.data.go.kr/1471057/MdcinPrductPrmisnInfoService1/getMdcinPrductItem?ServiceKey={}'.format(key)
 
 content = requests.get(url).content 
