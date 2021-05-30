@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np 
 
 
-key = 'mFY7S%2BvZr%2BV5qfNSnOV43jwWv6jLN9C4CG8YWB4eRd4vQ08JBb7d3UbLFNnrlPzeEjZP3UOjbTe2VszpDW92nw%3D%3D'
+key = '본인 key 입력'
 url = 'http://apis.data.go.kr/1470000/MdcinGrnIdntfcInfoService/getMdcinGrnIdntfcInfoList?ServiceKey={}&pageNo=3'.format(key)
 
 content = requests.get(url).content 
